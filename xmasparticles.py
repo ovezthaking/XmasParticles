@@ -38,7 +38,7 @@ class Emitter:
         self.lifespan = lifespan
         self.speed_range = speed_range
         self.particles = []
-        self.emitter_lifespan = emitter_lifespan  # Lifespan of the emitter itself
+        self.emitter_lifespan = emitter_lifespan  
 
     def emit(self):
         for _ in range(self.rate):
